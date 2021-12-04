@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  isShown = false;
   title = 'sharayu';
+  elem: any;
+  hideNav() {
+    this.elem = document.getElementById('navbarSupportedContent');
+    this.elem.style.display = 'hidden';
+  }
 }
