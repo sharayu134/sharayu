@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "githubpage": "ng build --outputPath=docs --base-href=https://sharayu134.github.io/sharayu/"
+    "githubpage": "ng build --outputPath=docs --base-href=/sharayu/"
   },
   "private": true,
   "dependencies": {
